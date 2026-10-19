@@ -1,0 +1,87 @@
+[32m[Nest] 2460  - [39m19/10/2026, 21.09.49 [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[32m[Nest] 2460  - [39m19/10/2026, 21.09.49 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +14ms[39m
+[32m[Nest] 2460  - [39m19/10/2026, 21.09.49 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 2460  - [39m19/10/2026, 21.09.49 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mPassportModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 2460  - [39m19/10/2026, 21.09.49 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigHostModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 2460  - [39m19/10/2026, 21.09.49 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 2460  - [39m19/10/2026, 21.09.49 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 2460  - [39m19/10/2026, 21.09.49 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mEmailModule dependencies initialized[39m[38;5;3m +9ms[39m
+[32m[Nest] 2460  - [39m19/10/2026, 21.09.49 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mVocabularyModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 2460  - [39m19/10/2026, 21.09.49 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmCoreModule dependencies initialized[39m[38;5;3m +22ms[39m
+[32m[Nest] 2460  - [39m19/10/2026, 21.09.49 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 2460  - [39m19/10/2026, 21.09.49 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 2460  - [39m19/10/2026, 21.09.49 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 2460  - [39m19/10/2026, 21.09.49 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 2460  - [39m19/10/2026, 21.09.49 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 2460  - [39m19/10/2026, 21.09.49 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mDatabaseModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 2460  - [39m19/10/2026, 21.09.49 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mWebModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 2460  - [39m19/10/2026, 21.09.49 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mCharactersModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 2460  - [39m19/10/2026, 21.09.49 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mParticlesModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 2460  - [39m19/10/2026, 21.09.49 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mFlashcardsModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 2460  - [39m19/10/2026, 21.09.49 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAuthModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 2460  - [39m19/10/2026, 21.09.49 [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAuthController {/}:[39m[38;5;3m +36ms[39m
+[32m[Nest] 2460  - [39m19/10/2026, 21.09.49 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/register, GET} route[39m[38;5;3m +2ms[39m
+[32m[Nest] 2460  - [39m19/10/2026, 21.09.49 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/register, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 2460  - [39m19/10/2026, 21.09.49 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/verify, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 2460  - [39m19/10/2026, 21.09.49 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/resend-verification, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 2460  - [39m19/10/2026, 21.09.49 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/resend-verification, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 2460  - [39m19/10/2026, 21.09.49 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/login, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 2460  - [39m19/10/2026, 21.09.49 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/login, POST} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 2460  - [39m19/10/2026, 21.09.49 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/logout, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 2460  - [39m19/10/2026, 21.09.49 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/logout, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 2460  - [39m19/10/2026, 21.09.49 [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mCharactersController {/api}:[39m[38;5;3m +1ms[39m
+[32m[Nest] 2460  - [39m19/10/2026, 21.09.49 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/hiragana, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 2460  - [39m19/10/2026, 21.09.49 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/hiragana/:romaji, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 2460  - [39m19/10/2026, 21.09.49 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/katakana, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 2460  - [39m19/10/2026, 21.09.49 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/katakana/:romaji, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 2460  - [39m19/10/2026, 21.09.49 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/kanji, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 2460  - [39m19/10/2026, 21.09.49 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/kanji/:id, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 2460  - [39m19/10/2026, 21.09.49 [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mParticlesController {/api}:[39m[38;5;3m +1ms[39m
+[32m[Nest] 2460  - [39m19/10/2026, 21.09.49 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/particles, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 2460  - [39m19/10/2026, 21.09.49 [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mFlashcardsController {/api}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 2460  - [39m19/10/2026, 21.09.49 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/flashcards, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 2460  - [39m19/10/2026, 21.09.49 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/flashcards/:flashcardId, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 2460  - [39m19/10/2026, 21.09.49 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/flashcards, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 2460  - [39m19/10/2026, 21.09.49 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/flashcards/:flashcardId, PUT} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 2460  - [39m19/10/2026, 21.09.49 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/flashcards/:flashcardId, DELETE} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 2460  - [39m19/10/2026, 21.09.49 [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mFlashcardWebController {/}:[39m[38;5;3m +1ms[39m
+[32m[Nest] 2460  - [39m19/10/2026, 21.09.49 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/flashcards, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 2460  - [39m19/10/2026, 21.09.49 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/kanji/:character, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 2460  - [39m19/10/2026, 21.09.49 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/flashcards/delete/:id, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 2460  - [39m19/10/2026, 21.09.49 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/flashcards/export_flashcards_csv, POST} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 2460  - [39m19/10/2026, 21.09.49 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/flashcards/export_flashcards_json, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 2460  - [39m19/10/2026, 21.09.49 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/flashcards/export_flashcards_anki, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 2460  - [39m19/10/2026, 21.09.49 [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mWebController {/}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 2460  - [39m19/10/2026, 21.09.49 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 2460  - [39m19/10/2026, 21.09.49 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/vocabulary, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 2460  - [39m19/10/2026, 21.09.49 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/vocabulary, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 2460  - [39m19/10/2026, 21.09.49 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/hiragana, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 2460  - [39m19/10/2026, 21.09.49 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/practice-hiragana, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 2460  - [39m19/10/2026, 21.09.49 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/katakana, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 2460  - [39m19/10/2026, 21.09.49 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/practice-katakana, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 2460  - [39m19/10/2026, 21.09.49 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/kanji, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 2460  - [39m19/10/2026, 21.09.49 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/kanji/:character, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 2460  - [39m19/10/2026, 21.09.49 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/particles, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 2460  - [39m19/10/2026, 21.09.49 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/about, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 2460  - [39m19/10/2026, 21.09.49 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/privacypolicy, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 2460  - [39m19/10/2026, 21.09.49 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/tos, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 2460  - [39m19/10/2026, 21.09.49 [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mProfileController {/}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 2460  - [39m19/10/2026, 21.09.49 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/profile, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 2460  - [39m19/10/2026, 21.09.49 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/updateUsername, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 2460  - [39m19/10/2026, 21.09.49 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/updatePassword, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 2460  - [39m19/10/2026, 21.09.49 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/updateApiKey, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 2460  - [39m19/10/2026, 21.09.49 [32m    LOG[39m [38;5;3m[SeederService] [39m[32mChecking database seed state...[39m
+[32m[Nest] 2460  - [39m19/10/2026, 21.09.49 [32m    LOG[39m [38;5;3m[SeederService] [39m[32mSeeding Hiragana characters...[39m
+[32m[Nest] 2460  - [39m19/10/2026, 21.09.49 [32m    LOG[39m [38;5;3m[SeederService] [39m[32mSeeded 46 Hiragana characters.[39m
+[32m[Nest] 2460  - [39m19/10/2026, 21.09.49 [32m    LOG[39m [38;5;3m[SeederService] [39m[32mSeeding Katakana characters...[39m
+[32m[Nest] 2460  - [39m19/10/2026, 21.09.49 [32m    LOG[39m [38;5;3m[SeederService] [39m[32mSeeded 46 Katakana characters.[39m
+[32m[Nest] 2460  - [39m19/10/2026, 21.09.49 [32m    LOG[39m [38;5;3m[SeederService] [39m[32mSeeding Kanji characters...[39m
+[32m[Nest] 2460  - [39m19/10/2026, 21.09.49 [32m    LOG[39m [38;5;3m[SeederService] [39m[32mSeeded 29 Kanji characters.[39m
+[32m[Nest] 2460  - [39m19/10/2026, 21.09.49 [32m    LOG[39m [38;5;3m[SeederService] [39m[32mSeeding Japanese particles...[39m
+[32m[Nest] 2460  - [39m19/10/2026, 21.09.49 [32m    LOG[39m [38;5;3m[SeederService] [39m[32mSeeded 15 Japanese particles.[39m
+[32m[Nest] 2460  - [39m19/10/2026, 21.09.49 [32m    LOG[39m [38;5;3m[SeederService] [39m[32mSeeding demo user (demo / password123)...[39m
+[32m[Nest] 2460  - [39m19/10/2026, 21.09.49 [32m    LOG[39m [38;5;3m[SeederService] [39m[32mCreated demo user: demo / password123[39m
+[32m[Nest] 2460  - [39m19/10/2026, 21.09.49 [32m    LOG[39m [38;5;3m[SeederService] [39m[32mSeeding demo flashcards...[39m
+[32m[Nest] 2460  - [39m19/10/2026, 21.09.49 [32m    LOG[39m [38;5;3m[SeederService] [39m[32mCreated 3 initial flashcards for demo user.[39m
+[32m[Nest] 2460  - [39m19/10/2026, 21.09.49 [32m    LOG[39m [38;5;3m[SeederService] [39m[32mDatabase seed check complete.[39m
+[32m[Nest] 2460  - [39m19/10/2026, 21.09.49 [32m    LOG[39m [38;5;3m[NestApplication] [39m[32mNest application successfully started[39m[38;5;3m +0ms[39m

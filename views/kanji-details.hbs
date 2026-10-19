@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta content="width=device-width, initial-scale=1" name="viewport">
+        <title>Kanji character {{kanji.character}} | Kitsuno</title>
+
+        <link rel="icon" href="/images/favicon/favicon-32x32.png" sizes="32x32" type="image/png">
+        <link rel="icon" href="/images/favicon/favicon-64x64.png" sizes="64x64" type="image/png">
+
+        <link href="https://fonts.googleapis.com" rel="preconnect">
+        <link crossorigin href="https://fonts.gstatic.com" rel="preconnect">
+        <link href="https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&family=Poppins:ital,wght@0,100;0,400;0,500;0,600;1,400;1,500;1,600&family=Quicksand:wght@300..700&display=swap"
+              rel="stylesheet">
+
+        <link rel="stylesheet" href="/css/styles.css"/>
+    </head>
+    <body>
+        <nav class="navbar">
+            <div class="logo">
+                <a href="/">
+                    <img alt="Logo" src="/images/navbar/logo.png">
+                </a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="/vocabulary"><img alt="Vocabulary Icon" src="/images/navbar/vocabulary_icon.png">
+                    <span>Vocabulary</span></a>
+                </li>
+                <li><a href="/hiragana"><img alt="Hiragana Icon" src="/images/navbar/hiragana_icon.png">
+                    <span>Hiragana</span></a>
+                </li>
+                <li><a href="/katakana"><img alt="Katakana Icon" src="/images/navbar/katakana_icon.png">
+                    <span>Katakana</span></a>
+                </li>
+                <li class="active"><a href="/kanji"><img alt="Kanji Icon" src="/images/navbar/kanji_icon.png">
+                    <span>Kanji</span></a></li>
+                <li><a href="/flashcards"><img alt="Flashcards Icon" src="/images/navbar/flashcard_icon.png">
+                    <span>Flashcards</span></a></li>
+                <li><a href="/particles"><img src="/images/navbar/particle_icon.png" alt="Particle Icon">
+                    <span>Particles</span></a></li>
+            </ul>
+            <div class="user-section">
+                <a href="#" class="user-link">
+                    {{#if isAuthenticated}}
+                    <h6>Hi <span>{{username}}!</span></h6>
+                    {{else}}
+                    <h6>Hi Guest!</h6>
+                    {{/if}}
+                    <img src="/images/navbar/user_icon.png" alt="User Icon" class="user-icon">
+                </a>
+                <ul class="user-dropdown">
+                    {{#if isAuthenticated}}
+                    <li>
+                        <a href="/profile">
+                            <img src="/images/navbar/profile.png" alt="Profile Icon"> Profile
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/logout">
+                            <img src="/images/navbar/logout.png" alt="Logout Icon"> LogOut
+                        </a>
+                    </li>
+                    {{else}}
+                    <li>
+                        <a href="/login">
+                            <img src="/images/navbar/login.png" alt="Login Icon"> LogIn
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/register">
+                            <img src="/images/navbar/register.png" alt="Register Icon"> SignUp
+                        </a>
+                    </li>
+                    {{/if}}
+                    <li>
+                        <a href="/v1/api-docs">
+                            <img src="/images/navbar/api.png" alt="Api-Docs Icon"> ApiDocs
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <nav class="bottom-navbar">
+            <ul class="nav-links">
+                <li><a href="/vocabulary"><img alt="Vocabulary Icon" src="/images/navbar/vocabulary_icon.png">
+                    <span>Vocabulary</span></a>
+                </li>
+                <li><a href="/hiragana"><img alt="Hiragana Icon" src="/images/navbar/hiragana_icon.png">
+                    <span>Hiragana</span></a>
+                </li>
+                <li><a href="/katakana"><img alt="Katakana Icon" src="/images/navbar/katakana_icon.png">
+                    <span>Katakana</span></a>
+                </li>
+                <li class="active"><a href="/kanji"><img alt="Kanji Icon" src="/images/navbar/kanji_icon.png">
+                    <span>Kanji</span></a></li>
+                <li><a href="/flashcards"><img alt="Flashcards Icon" src="/images/navbar/flashcard_icon.png">
+                    <span>Flashcards</span></a></li>
+                <li><a href="/particles"><img src="/images/navbar/particle_icon.png" alt="Particle Icon">
+                    <span>Particles</span></a></li>
+            </ul>
+        </nav>
+
+        <div id="main-section">
+            <a href="/kanji" class="back-button"><img src="/images/kanji/arrow.png" alt="Go Back"></a>
+
+            <div class="kanji-character">
+                <div id="stroke-order" class="stroke-order-svg" data-src="{{kanji.strokeOrderSvg}}"></div>
+                <h2 class="kanji-meaning">{{kanji.meanings}}</h2>
+            </div>
+
+            <div class="readings">
+                <div>
+                    <h3>Onyomi</h3>
+                    <p class="reading-box">
+                        {{#if kanji.onyomiReadings}}
+                            {{#each kanji.onyomiReadings}}
+                                <span>{{this}}</span>&nbsp;
+                            {{/each}}
+                        {{else}}
+                            <span>-</span>
+                        {{/if}}
+                    </p>
+                </div>
+
+                <div>
+                    <h3>Kunyomi</h3>
+                    <p class="reading-box">
+                        {{#if kanji.kunyomiReadings}}
+                            {{#each kanji.kunyomiReadings}}
+                                <span>{{this}}</span>&nbsp;
+                            {{/each}}
+                        {{else}}
+                            <span>-</span>
+                        {{/if}}
+                    </p>
+                </div>
+            </div>
+
+            <div class="button-container">
+                {{#if isAuthenticated}}
+                <div>
+                    <button class="flashcard-button flashcard-button-form" style="{{#if hasError}}color: red;{{/if}}"
+                            onclick="showFlashcardForm()">
+                        {{#if hasFlashcard}}Update Flashcard{{else}}Create Flashcard{{/if}}
+                    </button>
+                </div>
+                {{else}}
+                <div>
+                    <button class="flashcard-button flashcard-button-form" onclick="flashcardError()">Create Flashcard</button>
+                    <p id="flashcard-error" class="hidden">Login required!</p>
+                </div>
+                {{/if}}
+            </div>
+
+            <div id="flashcard-form" class="{{#unless hasError}}hidden{{/unless}}">
+                <h1>{{#if hasFlashcard}}Updating Flashcard{{else}}Creating Flashcard{{/if}}</h1>
+
+                <form action="/kanji/{{kanji.character}}" method="post">
+                    <input type="hidden" name="kanjiCharacter" value="{{kanji.character}}"/>
+                    <input type="hidden" name="kanjiId" value="{{kanji.id}}"/>
+                    <input type="hidden" name="userId" value="{{userId}}"/>
+
+                    {{#if errorMessage}}
+                    <div>
+                        <p class="create-flashcard-error">{{errorMessage}}</p>
+                    </div>
+                    {{/if}}
+
+                    <div class="vocabulary-grid">
+                        <div class="vocab-input">
+                            <label><h3>#1</h3></label>
+                            <label>
+                                <input type="text" name="vocabWord1" value="{{flashcardDTO.vocabWord1}}" placeholder="Word"
+                                    class="character-limit hiragana-input" data-limit="8">
+                            </label>
+                            <label>
+                                <input type="text" name="vocabMeaning1" value="{{flashcardDTO.vocabMeaning1}}" placeholder="Meaning" class="character-limit"
+                                       data-limit="24">
+                            </label>
+                        </div>
+
+                        <div class="vocab-input">
+                            <label><h3>#2</h3></label>
+                            <label>
+                                <input type="text" name="vocabWord2" value="{{flashcardDTO.vocabWord2}}" placeholder="Word"
+                                    class="character-limit hiragana-input" data-limit="8">
+                            </label>
+                            <label>
+                                <input type="text" name="vocabMeaning2" value="{{flashcardDTO.vocabMeaning2}}" placeholder="Meaning" class="character-limit"
+                                       data-limit="24">
+                            </label>
+                        </div>
+
+                        <div class="vocab-input">
+                            <label><h3>#3</h3></label>
+                            <label>
+                                <input type="text" name="vocabWord3" value="{{flashcardDTO.vocabWord3}}" placeholder="Word"
+                                    class="character-limit hiragana-input" data-limit="8">
+                            </label>
+                            <label>
+                                <input type="text" name="vocabMeaning3" value="{{flashcardDTO.vocabMeaning3}}" placeholder="Meaning" class="character-limit"
+                                       data-limit="24">
+                            </label>
+                        </div>
+
+                        <div class="vocab-input">
+                            <label><h3>#4</h3></label>
+                            <label>
+                                <input type="text" name="vocabWord4" value="{{flashcardDTO.vocabWord4}}" placeholder="Word"
+                                    class="character-limit hiragana-input" data-limit="8">
+                            </label>
+                            <label>
+                                <input type="text" name="vocabMeaning4" value="{{flashcardDTO.vocabMeaning4}}" placeholder="Meaning" class="character-limit"
+                                       data-limit="24">
+                            </label>
+                        </div>
+                    </div>
+
+                    <div class="notes-container">
+                        <label for="notes"><h3>Notes</h3></label>
+                        <textarea id="notes" name="notes" rows="4"
+                                  placeholder="Add your notes here..." class="character-limit"
+                                  data-limit="200">{{flashcardDTO.notes}}</textarea>
+                    </div>
+
+                    <div class="form-buttons">
+                        <button class="flashcard-button" type="submit">
+                            {{#if hasFlashcard}}Update{{else}}Create{{/if}}
+                        </button>
+                        <button class="flashcard-button" type="button" onclick="hideFlashcardForm()">Cancel</button>
+                    </div>
+                </form>
+            </div>
+
+            <div class="related-words">
+                <hr>
+                <h3>Vocabulary</h3>
+                <p class="related-words-p">Common vocabulary and meanings related to the kanji character '<span>{{kanji.character}}</span>'</p>
+
+                <div class="vocabulary-list">
+                    {{#if kanji.vocab}}
+                        {{#each kanji.vocab}}
+                            <div class="vocab-item">
+                                <p class="kanji-word">{{vocabWord this}}</p>
+                                <p class="meaning">{{vocabMeaning this}}</p>
+                            </div>
+                            <hr>
+                        {{/each}}
+                    {{/if}}
+                </div>
+            </div>
+        </div>
+
+        <script src="https://cdn.jsdelivr.net/npm/wanakana@5.3.1/wanakana.min.js"></script>
+        <script src="/js/script.js"></script>
+    </body>
+</html>

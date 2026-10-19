@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>{{user.username}} | Kitsuno</title>
+
+        <link rel="icon" href="/images/favicon/favicon-32x32.png" sizes="32x32" type="image/png">
+        <link rel="icon" href="/images/favicon/favicon-64x64.png" sizes="64x64" type="image/png">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&family=Poppins:ital,wght@0,100;0,400;0,500;0,600;1,400;1,500;1,600&family=Quicksand:wght@300..700&display=swap"
+              rel="stylesheet">
+
+        <link rel="stylesheet" href="https://cdn.lineicons.com/5.0/lineicons.css"/>
+        <link rel="stylesheet" href="/css/styles.css">
+    </head>
+    <body>
+        <div class="profile-container">
+            <div class="profile-header">
+                <div class="profile-left">
+                    <img src="/images/profile/profile_icon.png" alt="User Icon" class="profile-icon">
+                    <h2>{{user.username}}</h2>
+                </div>
+                <div class="profile-details">
+                    <p><i class="lni lni-envelope-1"></i> <strong>Email:</strong>
+                        <span>{{user.email}}</span></p>
+                    <p><i class="lni lni-calendar-days"></i> <strong>Joined Date:</strong>
+                        <span>{{formatDate user.joinDate}}</span></p>
+                    <p><i class="lni lni-bookmark-circle"></i> <strong>Flashcards:</strong>
+                        <span>{{countFlashcards}}</span></p>
+                    <p><i class="lni lni-key-1"></i> <strong>Api Key:</strong>
+                        <span id="apiKey" class="censored">{{user.apiKey}}</span>
+                        <a href="/updateApiKey" class="updateApiKey">
+                            <i class="lni lni-refresh-circle-1-clockwise"></i>
+                        </a></p>
+                </div>
+            </div>
+
+            <hr>
+
+            <div class="form-columns">
+                <div class="form-container form-container-profile">
+                    <h3>Change Username</h3>
+                    <form action="/updateUsername" method="post">
+                        <label for="new-username">New Username:</label>
+                        <input type="text" id="new-username" name="newUsername" value="{{usernameUpdateDTO.newUsername}}" required>
+
+                        {{#if usernameError}}
+                        <div class="error">
+                            <span>{{usernameError}}</span>
+                        </div>
+                        {{/if}}
+
+                        <button type="submit" class="submit-button">Update Username</button>
+
+                        {{#if usernameSuccess}}
+                        <div class="green">
+                            <p>{{usernameSuccess}}</p>
+                        </div>
+                        {{/if}}
+                    </form>
+                </div>
+
+                <div class="form-container form-container-profile">
+                    <h3>Change Password</h3>
+                    <form action="/updatePassword" method="post">
+                        <label for="old-password">Old Password:</label>
+                        <input type="password" id="old-password" name="oldPassword" required>
+                        {{#if oldPasswordError}}
+                        <div class="error">
+                            <span>{{oldPasswordError}}</span>
+                        </div>
+                        {{/if}}
+
+                        <label for="new-password">New Password:</label>
+                        <input type="password" id="new-password" name="newPassword" required>
+                        {{#if newPasswordError}}
+                        <div class="error">
+                            <span>{{newPasswordError}}</span>
+                        </div>
+                        {{/if}}
+
+                        <label for="confirm-password">Confirm New Password:</label>
+                        <input type="password" id="confirm-password" name="confirmPassword" required>
+                        {{#if confirmPasswordError}}
+                        <div class="error">
+                            <span>{{confirmPasswordError}}</span>
+                        </div>
+                        {{/if}}
+
+                        <button type="submit" class="submit-button">Update Password</button>
+
+                        {{#if passwordSuccess}}
+                        <div class="green">
+                            <p>{{passwordSuccess}}</p>
+                        </div>
+                        {{/if}}
+                        {{#if passwordError}}
+                        <div class="error">
+                            <p>{{passwordError}}</p>
+                        </div>
+                        {{/if}}
+                    </form>
+                </div>
+            </div>
+            <hr>
+            <div class="profile-footer-container">
+                <a href="javascript:void(0);" class="profile-footer" onclick="goBack(event)">Go Back</a>
+                <a href="/logout" class="profile-footer">Log Out</a>
+            </div>
+        </div>
+
+        <script src="/js/script.js"></script>
+    </body>
+</html>
