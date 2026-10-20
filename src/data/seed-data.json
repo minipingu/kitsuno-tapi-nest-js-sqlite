@@ -1,0 +1,1339 @@
+{
+  "hiragana": [
+    {
+      "id": 1,
+      "character": "あ",
+      "romaji": "a",
+      "audio": "https://assets.tofugu.com/audio/japanese/hiragana/a.mp3",
+      "mnemonic": "An apple with a stem",
+      "story": "Imagine an apple (あ) with a leafy stem on top.",
+      "stroke_order": "stroke-a.svg"
+    },
+    {
+      "id": 2,
+      "character": "い",
+      "romaji": "i",
+      "audio": "https://assets.tofugu.com/audio/japanese/hiragana/i.mp3",
+      "mnemonic": "Two eels side by side",
+      "story": "Looks like two eels swimming next to each other.",
+      "stroke_order": "stroke-i.svg"
+    },
+    {
+      "id": 3,
+      "character": "う",
+      "romaji": "u",
+      "audio": "https://assets.tofugu.com/audio/japanese/hiragana/u.mp3",
+      "mnemonic": "A heavy weight on someone’s back",
+      "story": "Looks like a man hunched over carrying heavy luggage saying \"Oof!\".",
+      "stroke_order": "stroke-u.svg"
+    },
+    {
+      "id": 4,
+      "character": "え",
+      "romaji": "e",
+      "audio": "https://assets.tofugu.com/audio/japanese/hiragana/e.mp3",
+      "mnemonic": "An energetic exotic bird",
+      "story": "Looks like an energetic bird with an exaggerated crest.",
+      "stroke_order": "stroke-e.svg"
+    },
+    {
+      "id": 5,
+      "character": "お",
+      "romaji": "o",
+      "audio": "https://assets.tofugu.com/audio/japanese/hiragana/o.mp3",
+      "mnemonic": "A golfer swinging onto the green",
+      "story": "A golfer swinging a club hitting a golf ball onto the course.",
+      "stroke_order": "stroke-o.svg"
+    },
+    {
+      "id": 6,
+      "character": "か",
+      "romaji": "ka",
+      "audio": "https://assets.tofugu.com/audio/japanese/hiragana/ka.mp3",
+      "mnemonic": "A camera on a tripod",
+      "story": "Looks like someone snapping a photo with a camera.",
+      "stroke_order": "stroke-ka.svg"
+    },
+    {
+      "id": 7,
+      "character": "き",
+      "romaji": "ki",
+      "audio": "https://assets.tofugu.com/audio/japanese/hiragana/ki.mp3",
+      "mnemonic": "A key",
+      "story": "Looks just like an old skeleton key.",
+      "stroke_order": "stroke-ki.svg"
+    },
+    {
+      "id": 8,
+      "character": "く",
+      "romaji": "ku",
+      "audio": "https://assets.tofugu.com/audio/japanese/hiragana/ku.mp3",
+      "mnemonic": "A cuckoo bird’s beak",
+      "story": "A wide open bird beak crying cuckoo!",
+      "stroke_order": "stroke-ku.svg"
+    },
+    {
+      "id": 9,
+      "character": "け",
+      "romaji": "ke",
+      "audio": "https://assets.tofugu.com/audio/japanese/hiragana/ke.mp3",
+      "mnemonic": "A keg of root beer",
+      "story": "Looks like a tall wooden beer keg with spigots.",
+      "stroke_order": "stroke-ke.svg"
+    },
+    {
+      "id": 10,
+      "character": "こ",
+      "romaji": "ko",
+      "audio": "https://assets.tofugu.com/audio/japanese/hiragana/ko.mp3",
+      "mnemonic": "A pair of koala ears",
+      "story": "Two soft curved strokes like a pair of koala ears.",
+      "stroke_order": "stroke-ko.svg"
+    },
+    {
+      "id": 11,
+      "character": "さ",
+      "romaji": "sa",
+      "audio": "https://assets.tofugu.com/audio/japanese/hiragana/sa.mp3",
+      "mnemonic": "A smiling samurai",
+      "story": "A happy face of a samurai practicing martial arts.",
+      "stroke_order": "stroke-sa.svg"
+    },
+    {
+      "id": 12,
+      "character": "し",
+      "romaji": "shi",
+      "audio": "https://assets.tofugu.com/audio/japanese/hiragana/shi.mp3",
+      "mnemonic": "A fishing hook",
+      "story": "Looks like a slender fishing hook dipping into the sea.",
+      "stroke_order": "stroke-shi.svg"
+    },
+    {
+      "id": 13,
+      "character": "す",
+      "romaji": "su",
+      "audio": "https://assets.tofugu.com/audio/japanese/hiragana/su.mp3",
+      "mnemonic": "A swirling noodle",
+      "story": "A noodle looped up on chopsticks ready to slurrrrp.",
+      "stroke_order": "stroke-su.svg"
+    },
+    {
+      "id": 14,
+      "character": "せ",
+      "romaji": "se",
+      "audio": "https://assets.tofugu.com/audio/japanese/hiragana/se.mp3",
+      "mnemonic": "A couple saying secrets",
+      "story": "Two people leaning close whispering a secret.",
+      "stroke_order": "stroke-se.svg"
+    },
+    {
+      "id": 15,
+      "character": "そ",
+      "romaji": "so",
+      "audio": "https://assets.tofugu.com/audio/japanese/hiragana/so.mp3",
+      "mnemonic": "A sewing stitch pattern",
+      "story": "A zig-zag stitch in sewing fabric.",
+      "stroke_order": "stroke-so.svg"
+    },
+    {
+      "id": 16,
+      "character": "た",
+      "romaji": "ta",
+      "audio": "https://assets.tofugu.com/audio/japanese/hiragana/ta.mp3",
+      "mnemonic": "Spells out \"ta\"",
+      "story": "The strokes resemble the letters \"t\" and \"a\".",
+      "stroke_order": "stroke-ta.svg"
+    },
+    {
+      "id": 17,
+      "character": "ち",
+      "romaji": "chi",
+      "audio": "https://assets.tofugu.com/audio/japanese/hiragana/chi.mp3",
+      "mnemonic": "A cheerleader waving pom-poms",
+      "story": "A cute cheerleader jumping high in excitement.",
+      "stroke_order": "stroke-chi.svg"
+    },
+    {
+      "id": 18,
+      "character": "つ",
+      "romaji": "tsu",
+      "audio": "https://assets.tofugu.com/audio/japanese/hiragana/tsu.mp3",
+      "mnemonic": "A towering tsunami wave",
+      "story": "A single massive tidal wave curling overhead.",
+      "stroke_order": "stroke-tsu.svg"
+    },
+    {
+      "id": 19,
+      "character": "て",
+      "romaji": "te",
+      "audio": "https://assets.tofugu.com/audio/japanese/hiragana/te.mp3",
+      "mnemonic": "A dog’s tail",
+      "story": "Looks like a wagging tail of a golden retriever.",
+      "stroke_order": "stroke-te.svg"
+    },
+    {
+      "id": 20,
+      "character": "と",
+      "romaji": "to",
+      "audio": "https://assets.tofugu.com/audio/japanese/hiragana/to.mp3",
+      "mnemonic": "A thorn in a toe",
+      "story": "Looks like a sharp splinter piercing a toe.",
+      "stroke_order": "stroke-to.svg"
+    },
+    {
+      "id": 21,
+      "character": "な",
+      "romaji": "na",
+      "audio": "https://assets.tofugu.com/audio/japanese/hiragana/na.mp3",
+      "mnemonic": "A nun praying before a cross",
+      "story": "A nun bowing devoutly in prayer.",
+      "stroke_order": "stroke-na.svg"
+    },
+    {
+      "id": 22,
+      "character": "に",
+      "romaji": "ni",
+      "audio": "https://assets.tofugu.com/audio/japanese/hiragana/ni.mp3",
+      "mnemonic": "A needle and thread",
+      "story": "A sharp sewing needle on the left with thread lines on the right.",
+      "stroke_order": "stroke-ni.svg"
+    },
+    {
+      "id": 23,
+      "character": "ぬ",
+      "romaji": "nu",
+      "audio": "https://assets.tofugu.com/audio/japanese/hiragana/nu.mp3",
+      "mnemonic": "Chopsticks tangled in noodles",
+      "story": "Chopsticks looping around tasty ramen noodles.",
+      "stroke_order": "stroke-nu.svg"
+    },
+    {
+      "id": 24,
+      "character": "ね",
+      "romaji": "ne",
+      "audio": "https://assets.tofugu.com/audio/japanese/hiragana/ne.mp3",
+      "mnemonic": "A cat (neko) with curled tail",
+      "story": "A charming kitten with a swirly curled tail.",
+      "stroke_order": "stroke-ne.svg"
+    },
+    {
+      "id": 25,
+      "character": "の",
+      "romaji": "no",
+      "audio": "https://assets.tofugu.com/audio/japanese/hiragana/no.mp3",
+      "mnemonic": "A big red NO sign",
+      "story": "A circle with a stroke crossing through, meaning NO.",
+      "stroke_order": "stroke-no.svg"
+    },
+    {
+      "id": 26,
+      "character": "は",
+      "romaji": "ha",
+      "audio": "https://assets.tofugu.com/audio/japanese/hiragana/ha.mp3",
+      "mnemonic": "An upper-case H and small a",
+      "story": "The strokes form a stylized \"Ha\".",
+      "stroke_order": "stroke-ha.svg"
+    },
+    {
+      "id": 27,
+      "character": "ひ",
+      "romaji": "hi",
+      "audio": "https://assets.tofugu.com/audio/japanese/hiragana/hi.mp3",
+      "mnemonic": "A smiling mouth laughing \"hee hee\"",
+      "story": "A cheeky grinning face with a wide chin.",
+      "stroke_order": "stroke-hi.svg"
+    },
+    {
+      "id": 28,
+      "character": "ふ",
+      "romaji": "fu",
+      "audio": "https://assets.tofugu.com/audio/japanese/hiragana/fu.mp3",
+      "mnemonic": "Mount Fuji",
+      "story": "A serene mountain peak with misty clouds on both sides.",
+      "stroke_order": "stroke-fu.svg"
+    },
+    {
+      "id": 29,
+      "character": "へ",
+      "romaji": "he",
+      "audio": "https://assets.tofugu.com/audio/japanese/hiragana/he.mp3",
+      "mnemonic": "A steep hiking hill",
+      "story": "A pointy steep hill to climb.",
+      "stroke_order": "stroke-he.svg"
+    },
+    {
+      "id": 30,
+      "character": "ほ",
+      "romaji": "ho",
+      "audio": "https://assets.tofugu.com/audio/japanese/hiragana/ho.mp3",
+      "mnemonic": "A horse wearing a cap",
+      "story": "A tall horse with its head covered in a sun hat.",
+      "stroke_order": "stroke-ho.svg"
+    },
+    {
+      "id": 31,
+      "character": "ま",
+      "romaji": "ma",
+      "audio": "https://assets.tofugu.com/audio/japanese/hiragana/ma.mp3",
+      "mnemonic": "A theatrical mask",
+      "story": "Two eyebrows and a chin of an ancient kabuki mask.",
+      "stroke_order": "stroke-ma.svg"
+    },
+    {
+      "id": 32,
+      "character": "み",
+      "romaji": "mi",
+      "audio": "https://assets.tofugu.com/audio/japanese/hiragana/mi.mp3",
+      "mnemonic": "Lucky number 21",
+      "story": "Looks like numeral 2 followed by a stroke making 21.",
+      "stroke_order": "stroke-mi.svg"
+    },
+    {
+      "id": 33,
+      "character": "む",
+      "romaji": "mu",
+      "audio": "https://assets.tofugu.com/audio/japanese/hiragana/mu.mp3",
+      "mnemonic": "A moo cow face",
+      "story": "A friendly cow with horns and a nose ring going MOOO.",
+      "stroke_order": "stroke-mu.svg"
+    },
+    {
+      "id": 34,
+      "character": "め",
+      "romaji": "me",
+      "audio": "https://assets.tofugu.com/audio/japanese/hiragana/me.mp3",
+      "mnemonic": "An eye (me) with eyelashes",
+      "story": "A graceful eye surrounded by lashes.",
+      "stroke_order": "stroke-me.svg"
+    },
+    {
+      "id": 35,
+      "character": "も",
+      "romaji": "mo",
+      "audio": "https://assets.tofugu.com/audio/japanese/hiragana/mo.mp3",
+      "mnemonic": "A fish hook catching more worms",
+      "story": "A double-barbed fish hook that snags even more fish.",
+      "stroke_order": "stroke-mo.svg"
+    },
+    {
+      "id": 36,
+      "character": "や",
+      "romaji": "ya",
+      "audio": "https://assets.tofugu.com/audio/japanese/hiragana/ya.mp3",
+      "mnemonic": "A yak head with horns",
+      "story": "A sturdy Himalayan yak gazing into the distance.",
+      "stroke_order": "stroke-ya.svg"
+    },
+    {
+      "id": 37,
+      "character": "ゆ",
+      "romaji": "yu",
+      "audio": "https://assets.tofugu.com/audio/japanese/hiragana/yu.mp3",
+      "mnemonic": "A swimming fish",
+      "story": "A slender fish darting through the waves.",
+      "stroke_order": "stroke-yu.svg"
+    },
+    {
+      "id": 38,
+      "character": "よ",
+      "romaji": "yo",
+      "audio": "https://assets.tofugu.com/audio/japanese/hiragana/yo.mp3",
+      "mnemonic": "A yo-yo hanging on a string",
+      "story": "A yo-yo suspended in mid-air right after playing.",
+      "stroke_order": "stroke-yo.svg"
+    },
+    {
+      "id": 39,
+      "character": "ら",
+      "romaji": "ra",
+      "audio": "https://assets.tofugu.com/audio/japanese/hiragana/ra.mp3",
+      "mnemonic": "A rapid runner",
+      "story": "A runner crouching down and sprinting forward.",
+      "stroke_order": "stroke-ra.svg"
+    },
+    {
+      "id": 40,
+      "character": "り",
+      "romaji": "ri",
+      "audio": "https://assets.tofugu.com/audio/japanese/hiragana/ri.mp3",
+      "mnemonic": "River reeds",
+      "story": "Two reeds swaying in a gentle river stream.",
+      "stroke_order": "stroke-ri.svg"
+    },
+    {
+      "id": 41,
+      "character": "る",
+      "romaji": "ru",
+      "audio": "https://assets.tofugu.com/audio/japanese/hiragana/ru.mp3",
+      "mnemonic": "A route with a loop",
+      "story": "A winding country road with a cul-de-sac at the bottom.",
+      "stroke_order": "stroke-ru.svg"
+    },
+    {
+      "id": 42,
+      "character": "れ",
+      "romaji": "re",
+      "audio": "https://assets.tofugu.com/audio/japanese/hiragana/re.mp3",
+      "mnemonic": "A resting traveler",
+      "story": "A weary hiker resting under a trail sign.",
+      "stroke_order": "stroke-re.svg"
+    },
+    {
+      "id": 43,
+      "character": "ろ",
+      "romaji": "ro",
+      "audio": "https://assets.tofugu.com/audio/japanese/hiragana/ro.mp3",
+      "mnemonic": "A road without a loop",
+      "story": "Just like \"ru\", but the loop was robbed by road bandits!",
+      "stroke_order": "stroke-ro.svg"
+    },
+    {
+      "id": 44,
+      "character": "わ",
+      "romaji": "wa",
+      "audio": "https://assets.tofugu.com/audio/japanese/hiragana/wa.mp3",
+      "mnemonic": "A magical wasp",
+      "story": "A wasp buzzing through the garden air.",
+      "stroke_order": "stroke-wa.svg"
+    },
+    {
+      "id": 45,
+      "character": "を",
+      "romaji": "wo",
+      "audio": "https://assets.tofugu.com/audio/japanese/hiragana/wo.mp3",
+      "mnemonic": "An Olympic athlete with a disc",
+      "story": "An athlete ready to launch a discus into the arena.",
+      "stroke_order": "stroke-wo.svg"
+    },
+    {
+      "id": 46,
+      "character": "ん",
+      "romaji": "n",
+      "audio": "https://assets.tofugu.com/audio/japanese/hiragana/n.mp3",
+      "mnemonic": "Looks like lowercase n",
+      "story": "A flowing cursive \"n\" written with a brush.",
+      "stroke_order": "stroke-n.svg"
+    }
+  ],
+  "katakana": [
+    {
+      "id": 1,
+      "character": "ア",
+      "romaji": "a",
+      "audio": "https://assets.tofugu.com/audio/japanese/katakana/a.mp3",
+      "mnemonic": "An axe head",
+      "story": "Looks like a sharp axe blade striking down.",
+      "stroke_order": "stroke-kata-a.svg"
+    },
+    {
+      "id": 2,
+      "character": "イ",
+      "romaji": "i",
+      "audio": "https://assets.tofugu.com/audio/japanese/katakana/i.mp3",
+      "mnemonic": "An easel",
+      "story": "Looks like a painter's tripod easel standing upright.",
+      "stroke_order": "stroke-kata-i.svg"
+    },
+    {
+      "id": 3,
+      "character": "ウ",
+      "romaji": "u",
+      "audio": "https://assets.tofugu.com/audio/japanese/katakana/u.mp3",
+      "mnemonic": "An astronaut helmet",
+      "story": "Looks like the top visor of a futuristic space helmet.",
+      "stroke_order": "stroke-kata-u.svg"
+    },
+    {
+      "id": 4,
+      "character": "エ",
+      "romaji": "e",
+      "audio": "https://assets.tofugu.com/audio/japanese/katakana/e.mp3",
+      "mnemonic": "An elevator beam",
+      "story": "An industrial steel I-beam used in elevators.",
+      "stroke_order": "stroke-kata-e.svg"
+    },
+    {
+      "id": 5,
+      "character": "オ",
+      "romaji": "o",
+      "audio": "https://assets.tofugu.com/audio/japanese/katakana/o.mp3",
+      "mnemonic": "An opera singer striking a pose",
+      "story": "An opera singer passionately belting out a solo.",
+      "stroke_order": "stroke-kata-o.svg"
+    },
+    {
+      "id": 6,
+      "character": "カ",
+      "romaji": "ka",
+      "audio": "https://assets.tofugu.com/audio/japanese/katakana/ka.mp3",
+      "mnemonic": "A card edge",
+      "story": "The angular top corner of a card.",
+      "stroke_order": "stroke-kata-ka.svg"
+    },
+    {
+      "id": 7,
+      "character": "キ",
+      "romaji": "ki",
+      "audio": "https://assets.tofugu.com/audio/japanese/katakana/ki.mp3",
+      "mnemonic": "A key with two notches",
+      "story": "A key with two horizontal ridges.",
+      "stroke_order": "stroke-kata-ki.svg"
+    },
+    {
+      "id": 8,
+      "character": "ク",
+      "romaji": "ku",
+      "audio": "https://assets.tofugu.com/audio/japanese/katakana/ku.mp3",
+      "mnemonic": "A cook's chef hat",
+      "story": "A tipped chef hat worn while cooking delicious ramen.",
+      "stroke_order": "stroke-kata-ku.svg"
+    },
+    {
+      "id": 9,
+      "character": "ケ",
+      "romaji": "ke",
+      "audio": "https://assets.tofugu.com/audio/japanese/katakana/ke.mp3",
+      "mnemonic": "A kettle spout",
+      "story": "The pouring handle and spout of a kettle.",
+      "stroke_order": "stroke-kata-ke.svg"
+    },
+    {
+      "id": 10,
+      "character": "コ",
+      "romaji": "ko",
+      "audio": "https://assets.tofugu.com/audio/japanese/katakana/ko.mp3",
+      "mnemonic": "A corner of a box",
+      "story": "Two crisp edges forming a rectangular corner.",
+      "stroke_order": "stroke-kata-ko.svg"
+    },
+    {
+      "id": 11,
+      "character": "サ",
+      "romaji": "sa",
+      "audio": "https://assets.tofugu.com/audio/japanese/katakana/sa.mp3",
+      "mnemonic": "Three sardines swimming",
+      "story": "Three little fish swimming in formation.",
+      "stroke_order": "stroke-kata-sa.svg"
+    },
+    {
+      "id": 12,
+      "character": "シ",
+      "romaji": "shi",
+      "audio": "https://assets.tofugu.com/audio/japanese/katakana/shi.mp3",
+      "mnemonic": "A smiling seal looking up",
+      "story": "A smiling seal face looking upward from below.",
+      "stroke_order": "stroke-kata-shi.svg"
+    },
+    {
+      "id": 13,
+      "character": "ス",
+      "romaji": "su",
+      "audio": "https://assets.tofugu.com/audio/japanese/katakana/su.mp3",
+      "mnemonic": "A superhero landing",
+      "story": "A dynamic superhero posing after a steep drop.",
+      "stroke_order": "stroke-kata-su.svg"
+    },
+    {
+      "id": 14,
+      "character": "セ",
+      "romaji": "se",
+      "audio": "https://assets.tofugu.com/audio/japanese/katakana/se.mp3",
+      "mnemonic": "A set of theater stairs",
+      "story": "Angular steps leading up to an illuminated stage.",
+      "stroke_order": "stroke-kata-se.svg"
+    },
+    {
+      "id": 15,
+      "character": "ソ",
+      "romaji": "so",
+      "audio": "https://assets.tofugu.com/audio/japanese/katakana/so.mp3",
+      "mnemonic": "A sewing needle plunging downward",
+      "story": "A needle stroke pointing steeply down towards the fabric.",
+      "stroke_order": "stroke-kata-so.svg"
+    },
+    {
+      "id": 16,
+      "character": "タ",
+      "romaji": "ta",
+      "audio": "https://assets.tofugu.com/audio/japanese/katakana/ta.mp3",
+      "mnemonic": "A taco with toppings",
+      "story": "A crispy taco shell with fillings inside.",
+      "stroke_order": "stroke-kata-ta.svg"
+    },
+    {
+      "id": 17,
+      "character": "チ",
+      "romaji": "chi",
+      "audio": "https://assets.tofugu.com/audio/japanese/katakana/chi.mp3",
+      "mnemonic": "A cheerleader's megaphone",
+      "story": "A megaphone used to cheer on the team.",
+      "stroke_order": "stroke-kata-chi.svg"
+    },
+    {
+      "id": 18,
+      "character": "ツ",
+      "romaji": "tsu",
+      "audio": "https://assets.tofugu.com/audio/japanese/katakana/tsu.mp3",
+      "mnemonic": "Two raindrops dropping down",
+      "story": "Two splashes falling downward into a pool.",
+      "stroke_order": "stroke-kata-tsu.svg"
+    },
+    {
+      "id": 19,
+      "character": "テ",
+      "romaji": "te",
+      "audio": "https://assets.tofugu.com/audio/japanese/katakana/te.mp3",
+      "mnemonic": "A television antenna",
+      "story": "An old-school TV aerial receiving broadcasts.",
+      "stroke_order": "stroke-kata-te.svg"
+    },
+    {
+      "id": 20,
+      "character": "ト",
+      "romaji": "to",
+      "audio": "https://assets.tofugu.com/audio/japanese/katakana/to.mp3",
+      "mnemonic": "A totem pole branch",
+      "story": "A straight post with a little wooden branch.",
+      "stroke_order": "stroke-kata-to.svg"
+    },
+    {
+      "id": 21,
+      "character": "ナ",
+      "romaji": "na",
+      "audio": "https://assets.tofugu.com/audio/japanese/katakana/na.mp3",
+      "mnemonic": "A narwhal tusk",
+      "story": "A cross sword showing a narwhal’s proud horn.",
+      "stroke_order": "stroke-kata-na.svg"
+    },
+    {
+      "id": 22,
+      "character": "ニ",
+      "romaji": "ni",
+      "audio": "https://assets.tofugu.com/audio/japanese/katakana/ni.mp3",
+      "mnemonic": "Two needles parallel",
+      "story": "Two simple parallel bars, also the kanji for two (二).",
+      "stroke_order": "stroke-kata-ni.svg"
+    },
+    {
+      "id": 23,
+      "character": "ヌ",
+      "romaji": "nu",
+      "audio": "https://assets.tofugu.com/audio/japanese/katakana/nu.mp3",
+      "mnemonic": "New noose or lasso",
+      "story": "A cowboy’s looped lasso ready for cattle.",
+      "stroke_order": "stroke-kata-nu.svg"
+    },
+    {
+      "id": 24,
+      "character": "ネ",
+      "romaji": "ne",
+      "audio": "https://assets.tofugu.com/audio/japanese/katakana/ne.mp3",
+      "mnemonic": "A necklace on a jewelry bust",
+      "story": "An elegant pendant resting on display.",
+      "stroke_order": "stroke-kata-ne.svg"
+    },
+    {
+      "id": 25,
+      "character": "ノ",
+      "romaji": "no",
+      "audio": "https://assets.tofugu.com/audio/japanese/katakana/no.mp3",
+      "mnemonic": "A long nose slash",
+      "story": "A clean swift downward stroke representing a sharp nose.",
+      "stroke_order": "stroke-kata-no.svg"
+    },
+    {
+      "id": 26,
+      "character": "ハ",
+      "romaji": "ha",
+      "audio": "https://assets.tofugu.com/audio/japanese/katakana/ha.mp3",
+      "mnemonic": "A hay stack parting",
+      "story": "Two wisps of hay spreading apart.",
+      "stroke_order": "stroke-kata-ha.svg"
+    },
+    {
+      "id": 27,
+      "character": "ヒ",
+      "romaji": "hi",
+      "audio": "https://assets.tofugu.com/audio/japanese/katakana/hi.mp3",
+      "mnemonic": "A hero standing proudly",
+      "story": "A person standing at attention ready to save the day.",
+      "stroke_order": "stroke-kata-hi.svg"
+    },
+    {
+      "id": 28,
+      "character": "フ",
+      "romaji": "fu",
+      "audio": "https://assets.tofugu.com/audio/japanese/katakana/fu.mp3",
+      "mnemonic": "A football goal corner",
+      "story": "The top crossbar corner of a goal post.",
+      "stroke_order": "stroke-kata-fu.svg"
+    },
+    {
+      "id": 29,
+      "character": "ヘ",
+      "romaji": "he",
+      "audio": "https://assets.tofugu.com/audio/japanese/katakana/he.mp3",
+      "mnemonic": "A helmet top",
+      "story": "Identical to hiragana 'he', an angular hill.",
+      "stroke_order": "stroke-kata-he.svg"
+    },
+    {
+      "id": 30,
+      "character": "ホ",
+      "romaji": "ho",
+      "audio": "https://assets.tofugu.com/audio/japanese/katakana/ho.mp3",
+      "mnemonic": "A holy wooden cross",
+      "story": "A cross adorned with holiday ribbons.",
+      "stroke_order": "stroke-kata-ho.svg"
+    },
+    {
+      "id": 31,
+      "character": "マ",
+      "romaji": "ma",
+      "audio": "https://assets.tofugu.com/audio/japanese/katakana/ma.mp3",
+      "mnemonic": "A martini glass silhouette",
+      "story": "An angled triangular cocktail glass.",
+      "stroke_order": "stroke-kata-ma.svg"
+    },
+    {
+      "id": 32,
+      "character": "ミ",
+      "romaji": "mi",
+      "audio": "https://assets.tofugu.com/audio/japanese/katakana/mi.mp3",
+      "mnemonic": "Three missile streaks",
+      "story": "Three sharp angled trails in the sky.",
+      "stroke_order": "stroke-kata-mi.svg"
+    },
+    {
+      "id": 33,
+      "character": "ム",
+      "romaji": "mu",
+      "audio": "https://assets.tofugu.com/audio/japanese/katakana/mu.mp3",
+      "mnemonic": "A cow’s muzzle",
+      "story": "A sturdy triangular muzzle of a cow.",
+      "stroke_order": "stroke-kata-mu.svg"
+    },
+    {
+      "id": 34,
+      "character": "メ",
+      "romaji": "me",
+      "audio": "https://assets.tofugu.com/audio/japanese/katakana/me.mp3",
+      "mnemonic": "A metallic sword cross",
+      "story": "Two crossed blades in combat.",
+      "stroke_order": "stroke-kata-me.svg"
+    },
+    {
+      "id": 35,
+      "character": "モ",
+      "romaji": "mo",
+      "audio": "https://assets.tofugu.com/audio/japanese/katakana/mo.mp3",
+      "mnemonic": "A modern monitor stand",
+      "story": "A multi-tier display stand.",
+      "stroke_order": "stroke-kata-mo.svg"
+    },
+    {
+      "id": 36,
+      "character": "ヤ",
+      "romaji": "ya",
+      "audio": "https://assets.tofugu.com/audio/japanese/katakana/ya.mp3",
+      "mnemonic": "A yacht sail",
+      "story": "A triangular sail catching sea wind.",
+      "stroke_order": "stroke-kata-ya.svg"
+    },
+    {
+      "id": 37,
+      "character": "ユ",
+      "romaji": "yu",
+      "audio": "https://assets.tofugu.com/audio/japanese/katakana/yu.mp3",
+      "mnemonic": "Number 1 hook",
+      "story": "An inverted hook shaped like the corner of number 1.",
+      "stroke_order": "stroke-kata-yu.svg"
+    },
+    {
+      "id": 38,
+      "character": "ヨ",
+      "romaji": "yo",
+      "audio": "https://assets.tofugu.com/audio/japanese/katakana/yo.mp3",
+      "mnemonic": "A yoga mat rack",
+      "story": "Three shelves holding rolled yoga mats.",
+      "stroke_order": "stroke-kata-yo.svg"
+    },
+    {
+      "id": 39,
+      "character": "ラ",
+      "romaji": "ra",
+      "audio": "https://assets.tofugu.com/audio/japanese/katakana/ra.mp3",
+      "mnemonic": "A radar dish",
+      "story": "An angled dish picking up radio signals.",
+      "stroke_order": "stroke-kata-ra.svg"
+    },
+    {
+      "id": 40,
+      "character": "リ",
+      "romaji": "ri",
+      "audio": "https://assets.tofugu.com/audio/japanese/katakana/ri.mp3",
+      "mnemonic": "Ribbons fluttering",
+      "story": "Two vertical ribbons waving in the breeze.",
+      "stroke_order": "stroke-kata-ri.svg"
+    },
+    {
+      "id": 41,
+      "character": "ル",
+      "romaji": "ru",
+      "audio": "https://assets.tofugu.com/audio/japanese/katakana/ru.mp3",
+      "mnemonic": "Ruler legs",
+      "story": "Two legs standing tall like drafting compass needles.",
+      "stroke_order": "stroke-kata-ru.svg"
+    },
+    {
+      "id": 42,
+      "character": "レ",
+      "romaji": "re",
+      "audio": "https://assets.tofugu.com/audio/japanese/katakana/re.mp3",
+      "mnemonic": "A red checkmark",
+      "story": "A single checkmark confirming the correct answer.",
+      "stroke_order": "stroke-kata-re.svg"
+    },
+    {
+      "id": 43,
+      "character": "ロ",
+      "romaji": "ro",
+      "audio": "https://assets.tofugu.com/audio/japanese/katakana/ro.mp3",
+      "mnemonic": "A robot mouth",
+      "story": "A square mechanical mouth on a robot face.",
+      "stroke_order": "stroke-kata-ro.svg"
+    },
+    {
+      "id": 44,
+      "character": "ワ",
+      "romaji": "wa",
+      "audio": "https://assets.tofugu.com/audio/japanese/katakana/wa.mp3",
+      "mnemonic": "A wine glass rim",
+      "story": "The upper rim and stem of a wine chalice.",
+      "stroke_order": "stroke-kata-wa.svg"
+    },
+    {
+      "id": 45,
+      "character": "ヲ",
+      "romaji": "wo",
+      "audio": "https://assets.tofugu.com/audio/japanese/katakana/wo.mp3",
+      "mnemonic": "A warrior's shield",
+      "story": "A reinforced shield carried by a samurai.",
+      "stroke_order": "stroke-kata-wo.svg"
+    },
+    {
+      "id": 46,
+      "character": "ン",
+      "romaji": "n",
+      "audio": "https://assets.tofugu.com/audio/japanese/katakana/n.mp3",
+      "mnemonic": "A ninja leaping upward",
+      "story": "An upward diagonal stroke like a leaping ninja star.",
+      "stroke_order": "stroke-kata-n.svg"
+    }
+  ],
+  "kanji": [
+    {
+      "id": 1,
+      "character": "日",
+      "stroke_count": 4,
+      "grade": 1,
+      "meanings": "day, sun, Japan, counter for days",
+      "onyomi_readings": "ニチ,ジツ",
+      "kunyomi_readings": "ひ,-び,-か",
+      "stroke_order_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 109 109\" class=\"stroke-order-svg\"><text x=\"25\" y=\"80\" font-size=\"75\" font-family=\"'Noto Sans JP', sans-serif\" fill=\"#2d3748\">日</text></svg>",
+      "vocab": "毎日 【まいにち】every day,日光 【にっこう】sunlight,日曜日 【にちようび】Sunday,休日 【きゅうじつ】holiday"
+    },
+    {
+      "id": 2,
+      "character": "月",
+      "stroke_count": 4,
+      "grade": 1,
+      "meanings": "month, moon",
+      "onyomi_readings": "ゲツ,ガツ",
+      "kunyomi_readings": "つき",
+      "stroke_order_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 109 109\" class=\"stroke-order-svg\"><text x=\"25\" y=\"80\" font-size=\"75\" font-family=\"'Noto Sans JP', sans-serif\" fill=\"#2d3748\">月</text></svg>",
+      "vocab": "月曜 【げつよう】Monday,今月 【こんげつ】this month,満月 【まんげつ】full moon,正月 【しょうがつ】New Year"
+    },
+    {
+      "id": 3,
+      "character": "火",
+      "stroke_count": 4,
+      "grade": 1,
+      "meanings": "fire",
+      "onyomi_readings": "カ",
+      "kunyomi_readings": "ひ,-び,ほ-",
+      "stroke_order_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 109 109\" class=\"stroke-order-svg\"><text x=\"25\" y=\"80\" font-size=\"75\" font-family=\"'Noto Sans JP', sans-serif\" fill=\"#2d3748\">火</text></svg>",
+      "vocab": "火曜日 【かようび】Tuesday,火事 【かじ】fire,火山 【かざん】volcano"
+    },
+    {
+      "id": 4,
+      "character": "水",
+      "stroke_count": 4,
+      "grade": 1,
+      "meanings": "water",
+      "onyomi_readings": "スイ",
+      "kunyomi_readings": "みず",
+      "stroke_order_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 109 109\" class=\"stroke-order-svg\"><text x=\"25\" y=\"80\" font-size=\"75\" font-family=\"'Noto Sans JP', sans-serif\" fill=\"#2d3748\">水</text></svg>",
+      "vocab": "水曜日 【すいようび】Wednesday,水泳 【すいえい】swimming,水 【みず】water,洪水 【こうずい】flood"
+    },
+    {
+      "id": 5,
+      "character": "木",
+      "stroke_count": 4,
+      "grade": 1,
+      "meanings": "tree, wood",
+      "onyomi_readings": "ボク,モク",
+      "kunyomi_readings": "き,こ-",
+      "stroke_order_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 109 109\" class=\"stroke-order-svg\"><text x=\"25\" y=\"80\" font-size=\"75\" font-family=\"'Noto Sans JP', sans-serif\" fill=\"#2d3748\">木</text></svg>",
+      "vocab": "木曜日 【もくようび】Thursday,木 【き】tree,大木 【たいぼく】large tree"
+    },
+    {
+      "id": 6,
+      "character": "金",
+      "stroke_count": 8,
+      "grade": 1,
+      "meanings": "gold, money",
+      "onyomi_readings": "キン,コン",
+      "kunyomi_readings": "かね,かな-",
+      "stroke_order_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 109 109\" class=\"stroke-order-svg\"><text x=\"25\" y=\"80\" font-size=\"75\" font-family=\"'Noto Sans JP', sans-serif\" fill=\"#2d3748\">金</text></svg>",
+      "vocab": "金曜日 【きんようび】Friday,お金 【おかね】money,金 【きん】gold,貯金 【ちょきん】savings"
+    },
+    {
+      "id": 7,
+      "character": "土",
+      "stroke_count": 3,
+      "grade": 1,
+      "meanings": "earth, soil, ground",
+      "onyomi_readings": "ド,ト",
+      "kunyomi_readings": "つち",
+      "stroke_order_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 109 109\" class=\"stroke-order-svg\"><text x=\"25\" y=\"80\" font-size=\"75\" font-family=\"'Noto Sans JP', sans-serif\" fill=\"#2d3748\">土</text></svg>",
+      "vocab": "土曜日 【どようび】Saturday,土地 【とち】land,土 【つち】earth, soil"
+    },
+    {
+      "id": 8,
+      "character": "年",
+      "stroke_count": 6,
+      "grade": 1,
+      "meanings": "year, counter for years",
+      "onyomi_readings": "ネン",
+      "kunyomi_readings": "とし",
+      "stroke_order_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 109 109\" class=\"stroke-order-svg\"><text x=\"25\" y=\"80\" font-size=\"75\" font-family=\"'Noto Sans JP', sans-serif\" fill=\"#2d3748\">年</text></svg>",
+      "vocab": "今年 【ことし】this year,来年 【らいねん】next year,去年 【きょねん】last year,新年 【しんねん】New Year"
+    },
+    {
+      "id": 9,
+      "character": "人",
+      "stroke_count": 2,
+      "grade": 1,
+      "meanings": "person",
+      "onyomi_readings": "ジン,ニン",
+      "kunyomi_readings": "ひと",
+      "stroke_order_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 109 109\" class=\"stroke-order-svg\"><text x=\"25\" y=\"80\" font-size=\"75\" font-family=\"'Noto Sans JP', sans-serif\" fill=\"#2d3748\">人</text></svg>",
+      "vocab": "人 【ひと】person,日本人 【にほんじん】Japanese person,友人 【ゆうじん】friend,大人 【おとな】adult"
+    },
+    {
+      "id": 10,
+      "character": "本",
+      "stroke_count": 5,
+      "grade": 1,
+      "meanings": "book, origin, main",
+      "onyomi_readings": "ホン",
+      "kunyomi_readings": "もと",
+      "stroke_order_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 109 109\" class=\"stroke-order-svg\"><text x=\"25\" y=\"80\" font-size=\"75\" font-family=\"'Noto Sans JP', sans-serif\" fill=\"#2d3748\">本</text></svg>",
+      "vocab": "本 【ほん】book,日本 【にほん】Japan,本当 【ほんとう】truth,基本 【きほん】basics"
+    },
+    {
+      "id": 11,
+      "character": "中",
+      "stroke_count": 4,
+      "grade": 1,
+      "meanings": "in, inside, middle, center",
+      "onyomi_readings": "チュウ",
+      "kunyomi_readings": "なか",
+      "stroke_order_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 109 109\" class=\"stroke-order-svg\"><text x=\"25\" y=\"80\" font-size=\"75\" font-family=\"'Noto Sans JP', sans-serif\" fill=\"#2d3748\">中</text></svg>",
+      "vocab": "中 【なか】inside,中国 【ちゅうごく】China,一日中 【いちにちじゅう】all day long,中心 【ちゅうしん】center"
+    },
+    {
+      "id": 12,
+      "character": "大",
+      "stroke_count": 3,
+      "grade": 1,
+      "meanings": "large, big",
+      "onyomi_readings": "ダイ,タイ",
+      "kunyomi_readings": "おお-,おお.きい",
+      "stroke_order_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 109 109\" class=\"stroke-order-svg\"><text x=\"25\" y=\"80\" font-size=\"75\" font-family=\"'Noto Sans JP', sans-serif\" fill=\"#2d3748\">大</text></svg>",
+      "vocab": "大きい 【おおきい】big,大学 【だいがく】university,大変 【たいへん】terrible, very,大切 【たいせつ】important"
+    },
+    {
+      "id": 13,
+      "character": "小",
+      "stroke_count": 3,
+      "grade": 1,
+      "meanings": "small, little",
+      "onyomi_readings": "ショウ",
+      "kunyomi_readings": "ちい.さい,こ-",
+      "stroke_order_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 109 109\" class=\"stroke-order-svg\"><text x=\"25\" y=\"80\" font-size=\"75\" font-family=\"'Noto Sans JP', sans-serif\" fill=\"#2d3748\">小</text></svg>",
+      "vocab": "小さい 【ちいさい】small,小学校 【しょうがっこう】elementary school,小鳥 【ことり】small bird"
+    },
+    {
+      "id": 14,
+      "character": "一",
+      "stroke_count": 1,
+      "grade": 1,
+      "meanings": "one",
+      "onyomi_readings": "イチ,イツ",
+      "kunyomi_readings": "ひと-,ひと.つ",
+      "stroke_order_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 109 109\" class=\"stroke-order-svg\"><text x=\"25\" y=\"80\" font-size=\"75\" font-family=\"'Noto Sans JP', sans-serif\" fill=\"#2d3748\">一</text></svg>",
+      "vocab": "一つ 【ひとつ】one,一人 【ひとり】one person,一番 【いちばん】number one,一日 【ついたち】1st of month"
+    },
+    {
+      "id": 15,
+      "character": "二",
+      "stroke_count": 2,
+      "grade": 1,
+      "meanings": "two",
+      "onyomi_readings": "ニ,ジ",
+      "kunyomi_readings": "ふた-,ふた.つ",
+      "stroke_order_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 109 109\" class=\"stroke-order-svg\"><text x=\"25\" y=\"80\" font-size=\"75\" font-family=\"'Noto Sans JP', sans-serif\" fill=\"#2d3748\">二</text></svg>",
+      "vocab": "二つ 【ふたつ】two,二人 【ふたり】two people,二月 【にがつ】February"
+    },
+    {
+      "id": 16,
+      "character": "三",
+      "stroke_count": 3,
+      "grade": 1,
+      "meanings": "three",
+      "onyomi_readings": "サン,ゾン",
+      "kunyomi_readings": "み-,み.つ,みっ.つ",
+      "stroke_order_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 109 109\" class=\"stroke-order-svg\"><text x=\"25\" y=\"80\" font-size=\"75\" font-family=\"'Noto Sans JP', sans-serif\" fill=\"#2d3748\">三</text></svg>",
+      "vocab": "三つ 【みっつ】three,三人 【さんにん】three people,三月 【さんがつ】March"
+    },
+    {
+      "id": 17,
+      "character": "四",
+      "stroke_count": 5,
+      "grade": 1,
+      "meanings": "four",
+      "onyomi_readings": "シ",
+      "kunyomi_readings": "よ-,よ.つ,よっ.つ,よん",
+      "stroke_order_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 109 109\" class=\"stroke-order-svg\"><text x=\"25\" y=\"80\" font-size=\"75\" font-family=\"'Noto Sans JP', sans-serif\" fill=\"#2d3748\">四</text></svg>",
+      "vocab": "四つ 【よっつ】four,四人 【よにん】four people,四月 【しがつ】April"
+    },
+    {
+      "id": 18,
+      "character": "五",
+      "stroke_count": 4,
+      "grade": 1,
+      "meanings": "five",
+      "onyomi_readings": "ゴ",
+      "kunyomi_readings": "いつ-,いつ.つ",
+      "stroke_order_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 109 109\" class=\"stroke-order-svg\"><text x=\"25\" y=\"80\" font-size=\"75\" font-family=\"'Noto Sans JP', sans-serif\" fill=\"#2d3748\">五</text></svg>",
+      "vocab": "五つ 【いつつ】five,五人 【ごにん】five people,五月 【ごがつ】May"
+    },
+    {
+      "id": 19,
+      "character": "行",
+      "stroke_count": 6,
+      "grade": 2,
+      "meanings": "going, journey, carry out",
+      "onyomi_readings": "コウ,ギョウ,アン",
+      "kunyomi_readings": "い.く,ゆ.く,おこな.う",
+      "stroke_order_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 109 109\" class=\"stroke-order-svg\"><text x=\"25\" y=\"80\" font-size=\"75\" font-family=\"'Noto Sans JP', sans-serif\" fill=\"#2d3748\">行</text></svg>",
+      "vocab": "行く 【いく】to go,旅行 【りょこう】travel,銀行 【ぎんこう】bank,行動 【こうどう】action"
+    },
+    {
+      "id": 20,
+      "character": "来",
+      "stroke_count": 7,
+      "grade": 2,
+      "meanings": "come, due, next, cause",
+      "onyomi_readings": "ライ,タイ",
+      "kunyomi_readings": "く.る,きた.る",
+      "stroke_order_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 109 109\" class=\"stroke-order-svg\"><text x=\"25\" y=\"80\" font-size=\"75\" font-family=\"'Noto Sans JP', sans-serif\" fill=\"#2d3748\">来</text></svg>",
+      "vocab": "来る 【くる】to come,来年 【らいねん】next year,未来 【みらい】future,本来 【ほんらい】originally"
+    },
+    {
+      "id": 21,
+      "character": "食",
+      "stroke_count": 9,
+      "grade": 2,
+      "meanings": "eat, food",
+      "onyomi_readings": "ショク,ジキ",
+      "kunyomi_readings": "く.う,た.べる",
+      "stroke_order_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 109 109\" class=\"stroke-order-svg\"><text x=\"25\" y=\"80\" font-size=\"75\" font-family=\"'Noto Sans JP', sans-serif\" fill=\"#2d3748\">食</text></svg>",
+      "vocab": "食べる 【たべる】to eat,食事 【しょくじ】meal,食堂 【しょくどう】cafeteria,朝食 【ちょうしょく】breakfast"
+    },
+    {
+      "id": 22,
+      "character": "見",
+      "stroke_count": 7,
+      "grade": 2,
+      "meanings": "see, hopes, chances, idea",
+      "onyomi_readings": "ケン",
+      "kunyomi_readings": "み.る,み.える,み.せる",
+      "stroke_order_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 109 109\" class=\"stroke-order-svg\"><text x=\"25\" y=\"80\" font-size=\"75\" font-family=\"'Noto Sans JP', sans-serif\" fill=\"#2d3748\">見</text></svg>",
+      "vocab": "見る 【みる】to see,見学 【けんがく】field trip,意見 【いけん】opinion,発見 【はっけん】discovery"
+    },
+    {
+      "id": 23,
+      "character": "聞",
+      "stroke_count": 14,
+      "grade": 2,
+      "meanings": "hear, ask, listen",
+      "onyomi_readings": "ブン,モン",
+      "kunyomi_readings": "き.く,き.こえる",
+      "stroke_order_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 109 109\" class=\"stroke-order-svg\"><text x=\"25\" y=\"80\" font-size=\"75\" font-family=\"'Noto Sans JP', sans-serif\" fill=\"#2d3748\">聞</text></svg>",
+      "vocab": "聞く 【きく】to listen,新聞 【しんぶん】newspaper,聞き手 【ききて】listener"
+    },
+    {
+      "id": 24,
+      "character": "旅",
+      "stroke_count": 10,
+      "grade": 3,
+      "meanings": "trip, travel",
+      "onyomi_readings": "リョ",
+      "kunyomi_readings": "たび",
+      "stroke_order_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 109 109\" class=\"stroke-order-svg\"><text x=\"25\" y=\"80\" font-size=\"75\" font-family=\"'Noto Sans JP', sans-serif\" fill=\"#2d3748\">旅</text></svg>",
+      "vocab": "旅行 【りょこう】travel,旅人 【たびびと】traveler,旅館 【りょかん】Japanese inn"
+    },
+    {
+      "id": 25,
+      "character": "運",
+      "stroke_count": 12,
+      "grade": 3,
+      "meanings": "carry, luck, destiny, transport",
+      "onyomi_readings": "ウン",
+      "kunyomi_readings": "はこ.ぶ",
+      "stroke_order_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 109 109\" class=\"stroke-order-svg\"><text x=\"25\" y=\"80\" font-size=\"75\" font-family=\"'Noto Sans JP', sans-serif\" fill=\"#2d3748\">運</text></svg>",
+      "vocab": "運転 【うんてん】driving,運動 【うんどう】exercise,運命 【うんめい】destiny,運ぶ 【はこぶ】to carry"
+    },
+    {
+      "id": 26,
+      "character": "愛",
+      "stroke_count": 13,
+      "grade": 4,
+      "meanings": "love, affection, favorite",
+      "onyomi_readings": "アイ",
+      "kunyomi_readings": "いと.しい,まな",
+      "stroke_order_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 109 109\" class=\"stroke-order-svg\"><text x=\"25\" y=\"80\" font-size=\"75\" font-family=\"'Noto Sans JP', sans-serif\" fill=\"#2d3748\">愛</text></svg>",
+      "vocab": "愛 【あい】love,愛情 【あいじょう】affection,愛読 【あいどく】favorite reading"
+    },
+    {
+      "id": 27,
+      "character": "桜",
+      "stroke_count": 10,
+      "grade": 5,
+      "meanings": "cherry blossom",
+      "onyomi_readings": "オウ",
+      "kunyomi_readings": "さくら",
+      "stroke_order_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 109 109\" class=\"stroke-order-svg\"><text x=\"25\" y=\"80\" font-size=\"75\" font-family=\"'Noto Sans JP', sans-serif\" fill=\"#2d3748\">桜</text></svg>",
+      "vocab": "桜 【さくら】cherry blossom,桜花 【おうか】cherry blossoms,桜色 【さくらいろ】cherry blossom pink"
+    },
+    {
+      "id": 28,
+      "character": "潮",
+      "stroke_count": 15,
+      "grade": 6,
+      "meanings": "tide, salt water, opportunity",
+      "onyomi_readings": "チョウ",
+      "kunyomi_readings": "しお,うしお",
+      "stroke_order_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 109 109\" class=\"stroke-order-svg\"><text x=\"25\" y=\"80\" font-size=\"75\" font-family=\"'Noto Sans JP', sans-serif\" fill=\"#2d3748\">潮</text></svg>",
+      "vocab": "満潮 【まんちょう】high tide,風潮 【ふうちょう】trend,潮風 【しおかぜ】sea breeze"
+    },
+    {
+      "id": 29,
+      "character": "恋",
+      "stroke_count": 10,
+      "grade": 7,
+      "meanings": "romance, in love, yearn for",
+      "onyomi_readings": "レン",
+      "kunyomi_readings": "こい,こい.しい",
+      "stroke_order_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 109 109\" class=\"stroke-order-svg\"><text x=\"25\" y=\"80\" font-size=\"75\" font-family=\"'Noto Sans JP', sans-serif\" fill=\"#2d3748\">恋</text></svg>",
+      "vocab": "恋 【こい】romantic love,恋愛 【れんあい】love, romance,恋人 【こいびと】lover, sweetheart"
+    }
+  ],
+  "particle": [
+    {
+      "id": 1,
+      "particle": "は (wa)",
+      "meaning": "topic marker",
+      "description": "Follows the topic the speaker wants to talk about.",
+      "formation": "[ A ] wa [ B ] desu. [ A ] is [ B ].",
+      "example": "Kinō wa ame datta 【昨日は雨だった】 It was rainy yesterday"
+    },
+    {
+      "id": 2,
+      "particle": "が (ga)",
+      "meaning": "subject marker / identifier",
+      "description": "Identifies the specific subject performing the action or having the quality, often emphasizing the subject.",
+      "formation": "[ Subject ] ga [ Verb / Adjective ]",
+      "example": "Ame ga futte iru 【雨が降っている】 It is raining"
+    },
+    {
+      "id": 3,
+      "particle": "を (o / wo)",
+      "meaning": "direct object marker",
+      "description": "Indicates the object that receives the action of a transitive verb.",
+      "formation": "[ Noun ] o [ Verb ]",
+      "example": "Hon o yomu 【本を読む】 Read a book"
+    },
+    {
+      "id": 4,
+      "particle": "に (ni)",
+      "meaning": "target / time / destination marker",
+      "description": "Indicates the destination of movement, a specific point in time, an indirect object, or the location where something exists.",
+      "formation": "[ Place / Time ] ni [ Verb ]",
+      "example": "Tōkyō ni ikimasu 【東京に行きます】 I will go to Tokyo"
+    },
+    {
+      "id": 5,
+      "particle": "で (de)",
+      "meaning": "location of action / means / tool marker",
+      "description": "Specifies where an event or action occurs, or the method/means used to perform an action.",
+      "formation": "[ Tool / Place ] de [ Action ]",
+      "example": "Densha de gakkō e iku 【電車で学校へ行く】 Go to school by train"
+    },
+    {
+      "id": 6,
+      "particle": "へ (e)",
+      "meaning": "direction marker",
+      "description": "Indicates the physical or metaphorical direction toward a goal or destination.",
+      "formation": "[ Destination ] e [ Movement Verb ]",
+      "example": "Nihon e ikitai 【日本へ行きたい】 I want to go to Japan"
+    },
+    {
+      "id": 7,
+      "particle": "と (to)",
+      "meaning": "and / with marker",
+      "description": "Connects multiple nouns exhaustively, or indicates companionship (\"with someone\").",
+      "formation": "[ Noun ] to [ Noun ] / [ Person ] to [ Verb ]",
+      "example": "Tomodachi to hanasu 【友達と話す】 Talk with a friend"
+    },
+    {
+      "id": 8,
+      "particle": "も (mo)",
+      "meaning": "also / too / as well",
+      "description": "Replaces wa, ga, or o to indicate that the same statement applies to another subject or object.",
+      "formation": "[ Noun ] mo [ Verb / Adj ]",
+      "example": "Watashi mo gakusei desu 【私も学生です】 I am also a student"
+    },
+    {
+      "id": 9,
+      "particle": "から (kara)",
+      "meaning": "from (source / starting point) / because",
+      "description": "Indicates the starting point in space or time, or acts as a conjunction expressing a reason or cause.",
+      "formation": "[ Starting Point ] kara",
+      "example": "Ku-ji kara hajimaru 【九時から始まる】 Starts from nine o’clock"
+    },
+    {
+      "id": 10,
+      "particle": "まで (made)",
+      "meaning": "until / up to / as far as",
+      "description": "Indicates the terminus, limit, or destination in time or distance.",
+      "formation": "[ End Point ] made",
+      "example": "Tōkyō kara Kyōto made 【東京から京都まで】 From Tokyo to Kyoto"
+    },
+    {
+      "id": 11,
+      "particle": "より (yori)",
+      "meaning": "comparison / more than",
+      "description": "Used in comparisons to denote the reference point (\"more than [Noun]\").",
+      "formation": "[ A ] wa [ B ] yori [ Adj ]",
+      "example": "Inu wa neko yori ōkii 【犬は猫より大きい】 Dogs are bigger than cats"
+    },
+    {
+      "id": 12,
+      "particle": "ね (ne)",
+      "meaning": "agreement seeker / tag question (\"isn’t it?\")",
+      "description": "Placed at the end of a sentence to seek agreement, confirmation, or show empathy with the listener.",
+      "formation": "[ Sentence ] ne",
+      "example": "Ii tenki desu ne 【いい天気ですね】 Nice weather, isn’t it?"
+    },
+    {
+      "id": 13,
+      "particle": "よ (yo)",
+      "meaning": "assertion / information emphasis",
+      "description": "Placed at sentence end to give new information or assert conviction with emphasis.",
+      "formation": "[ Sentence ] yo",
+      "example": "Ashita wa yasumi desu yo 【明日は休みですよ】 Tomorrow is a holiday, you know!"
+    },
+    {
+      "id": 14,
+      "particle": "か (ka)",
+      "meaning": "question marker",
+      "description": "Transforms a statement into a question at the end of a sentence.",
+      "formation": "[ Sentence ] ka",
+      "example": "Kore wa nan desu ka 【これは何ですか】 What is this?"
+    },
+    {
+      "id": 15,
+      "particle": "の (no)",
+      "meaning": "possession / modifier marker (\"'s\" / \"of\")",
+      "description": "Connects two nouns where the first modifies the second, indicating possession or relationship.",
+      "formation": "[ Noun A ] no [ Noun B ]",
+      "example": "Watashi no hon 【私の本】 My book"
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "username": "demo",
+      "email": "demo@kitsuno.app",
+      "password": "$2b$10$G1N4JmnpyexWIq3m4jnx5OsN7nArXPjCIR8V1nssjDagnmDTjPN/W",
+      "join_date": "2026-10-19",
+      "api_key": "demo-api-key-1234567890abcdef",
+      "enabled": 1,
+      "verification_token": null
+    },
+    {
+      "id": 2,
+      "username": "testu2219",
+      "email": "testu2219@example.com",
+      "password": "$2b$10$o.eZiOM2BTGemELyKTpg0.DGKu7asOSCwMJMUv11ZMZ3WK19g0ZoC",
+      "join_date": "2026-10-20",
+      "api_key": "ce6327b06b834cb8a4b32395cba493a5",
+      "enabled": 1,
+      "verification_token": null
+    },
+    {
+      "id": 3,
+      "username": "minipingu",
+      "email": "ranmaniax@gmail.com",
+      "password": "$2b$10$gcM2/7.9/Ql/Mf/XcFUeBeiPduIdHl.6HTl8pu.lPOynC5e6kqWtG",
+      "join_date": "2026-10-20",
+      "api_key": "75a96206f84a41aa8aba628aa6d8ded2",
+      "enabled": 0,
+      "verification_token": "8507554f8f3f4e608d8617c1143e2d49a0bb41b11db84ab897da8113b1c25a2f"
+    }
+  ],
+  "flashcard": [
+    {
+      "id": 1,
+      "vocabulary": "毎日 【まいにち】every day,日曜日 【にちようび】Sunday",
+      "notes": "Important foundation kanji for days and Japan.",
+      "kanji_id": 1,
+      "user_id": 1
+    },
+    {
+      "id": 2,
+      "vocabulary": "月曜 【げつよう】Monday,今月 【こんげつ】this month",
+      "notes": "Moon and month kanji. Remember Monday is 月曜日.",
+      "kanji_id": 2,
+      "user_id": 1
+    },
+    {
+      "id": 3,
+      "vocabulary": "水 【みず】water,水泳 【すいえい】swimming",
+      "notes": "Water kanji. Looks like water splashing!",
+      "kanji_id": 4,
+      "user_id": 1
+    },
+    {
+      "id": 4,
+      "vocabulary": "日曜日 Sunday",
+      "notes": "Test flashcard note",
+      "kanji_id": 1,
+      "user_id": 2
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "$instruction": "⚠️ DO NOT EDIT DIRECTLY. Use the TODO MCP tools (todo_get_tasks, todo_add_tasks, todo_update_tasks, todo_delete_tasks, todo_clear_category) to ensure live VS Code UI synchronization.",
+  "tasks": [
+    {
+      "id": "1792491325922jvm3dk",
+      "title": "Audit all NestJS endpoints, DTOs, and frontend API calls",
+      "category": "Completed",
+      "dueDate": null,
+      "completed": true
+    },
+    {
+      "id": "1792491325925jhif9a",
+      "title": "Install Hono dependencies and set up backend configuration",
+      "category": "Completed",
+      "dueDate": null,
+      "completed": true
+    },
+    {
+      "id": "1792491325925vicuh",
+      "title": "Build database abstraction and seed data for SQLite and Cloudflare D1",
+      "category": "Completed",
+      "dueDate": null,
+      "completed": true
+    },
+    {
+      "id": "1792491325925drkay",
+      "title": "Implement Hono routes: Auth, Profile, Characters, Particles, Vocabulary, Flashcards",
+      "category": "Completed",
+      "dueDate": null,
+      "completed": true
+    },
+    {
+      "id": "1792491325925r6wu9k",
+      "title": "Implement JWT cookie and API Key authentication middleware",
+      "category": "Completed",
+      "dueDate": null,
+      "completed": true
+    },
+    {
+      "id": "17924913259251n5rit",
+      "title": "Test local Hono server with frontend and verify all 18 routes",
+      "category": "Completed",
+      "dueDate": null,
+      "completed": true
+    },
+    {
+      "id": "1792491325925pay5blh",
+      "title": "Configure and verify Cloudflare Workers deployment readiness",
+      "category": "Completed",
+      "dueDate": null,
+      "completed": true
+    },
+    {
+      "id": "17924940571263tbq5d",
+      "title": "Review blocked/reverted work in src/lib/openapi.ts",
+      "category": "Blocked",
+      "dueDate": null,
+      "completed": false
+    },
+    {
+      "id": "1792494057622zagwf9",
+      "title": "Review blocked/reverted work in src/lib/jotoba.ts",
+      "category": "Blocked",
+      "dueDate": null,
+      "completed": false
+    },
+    {
+      "id": "1792494058304122k3p",
+      "title": "Review blocked/reverted work in src/lib/kana-utils.ts",
+      "category": "Blocked",
+      "dueDate": null,
+      "completed": false
+    },
+    {
+      "id": "1792494058884iiz2n4",
+      "title": "Review blocked/reverted work in src/lib/auth.ts",
+      "category": "Blocked",
+      "dueDate": null,
+      "completed": false
+    },
+    {
+      "id": "1792494059741d9847q",
+      "title": "Review blocked/reverted work in src/lib/db.ts",
+      "category": "Blocked",
+      "dueDate": null,
+      "completed": false
+    },
+    {
+      "id": "17924940603721id0g",
+      "title": "Review blocked/reverted work in src/app.ts",
+      "category": "Blocked",
+      "dueDate": null,
+      "completed": false
+    }
+  ]
+}
