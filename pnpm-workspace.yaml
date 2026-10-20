@@ -1,10 +1,7 @@
 allowBuilds:
-  '@parcel/watcher': set this to true or false
-  '@scarf/scarf': set this to true or false
-  bcrypt: set this to true or false
+  '@parcel/watcher': true
+  '@scarf/scarf': true
+  bcrypt: true
   better-sqlite3: set this to true or false
-  sqlite3: set this to true or false
-  unrs-resolver: set this to true or false
-minimumReleaseAgeExclude:
-  - '@tanstack/query-core@5.104.5'
-  - '@tanstack/react-query@5.104.5'
+  sqlite3: true
+  unrs-resolver: true
