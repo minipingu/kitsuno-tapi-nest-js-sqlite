@@ -4,117 +4,133 @@ import {
   Post,
   Body,
   Req,
-  Res,
-  Render,
   UseGuards,
+  BadRequestException,
+  HttpCode,
+  HttpStatus,
 } from '@nestjs/common';
-import { Request, Response } from 'express';
+import { ApiTags, ApiOperation } from '@nestjs/swagger';
+import { Request } from 'express';
 import { AuthService } from '../auth/auth.service';
 import { FlashcardsService } from '../flashcards/flashcards.service';
-import { AuthenticatedGuard } from '../auth/guards/authenticated.guard';
+import { SessionOrApiKeyGuard } from '../auth/guards/session-or-api-key.guard';
 import { UpdateUsernameDto } from '../auth/dto/update-username.dto';
 import { UpdatePasswordDto } from '../auth/dto/update-password.dto';
 import { User } from '../../entities/user.entity';
 
+@ApiTags('Profile')
 @Controller()
-@UseGuards(AuthenticatedGuard)
+@UseGuards(SessionOrApiKeyGuard)
 export class ProfileController {
   constructor(
     private readonly authService: AuthService,
     private readonly flashcardsService: FlashcardsService,
-  ) {}
+  ) { }
 
-  @Get('profile')
-  @Render('profile')
-  async showProfile(@Req() req: Request) {
+  @Get(['api/profile', 'profile'])
+  @ApiOperation({ summary: 'Get current user profile' })
+  async getProfile(@Req() req: Request) {
     const sessionUser = req.user as User;
     const user = await this.authService.findById(sessionUser.id);
     const countFlashcards = await this.flashcardsService.countFlashcardsByUserId(
       user.id,
     );
 
-    const usernameSuccess = (req.session as any)?.usernameSuccess;
-    const passwordSuccess = (req.session as any)?.passwordSuccess;
-    if ((req.session as any)?.usernameSuccess) delete (req.session as any).usernameSuccess;
-    if ((req.session as any)?.passwordSuccess) delete (req.session as any).passwordSuccess;
-
     return {
       isAuthenticated: true,
       username: user.username,
-      user,
+      user: {
+        id: user.id,
+        username: user.username,
+        email: user.email,
+        apiKey: user.apiKey,
+        joinDate: user.joinDate,
+      },
       countFlashcards,
-      usernameSuccess,
-      passwordSuccess,
-      errors: {},
     };
   }
 
-  @Post('updateUsername')
+  @Post(['api/profile/username', 'updateUsername'])
+  @HttpCode(HttpStatus.OK)
+  @ApiOperation({ summary: 'Update user username' })
   async updateUsername(
-    @Body() dto: UpdateUsernameDto,
+    @Body() body: any,
     @Req() req: Request,
-    @Res() res: Response,
   ) {
     const sessionUser = req.user as User;
     const user = await this.authService.findById(sessionUser.id);
+    const newUsername = (body.newUsername || body.username || '').trim();
+
+    if (!newUsername) {
+      throw new BadRequestException('New username is required');
+    }
 
     try {
-      const updatedUser = await this.authService.updateUsername(user, dto.newUsername);
-      // Update session user
+      const updatedUser = await this.authService.updateUsername(user, newUsername);
       req.user = updatedUser;
-      (req.session as any).usernameSuccess = 'Username was successfully updated';
-      return res.redirect('/profile');
-    } catch (err) {
-      const countFlashcards = await this.flashcardsService.countFlashcardsByUserId(
-        user.id,
-      );
-      return res.render('profile', {
-        isAuthenticated: true,
-        username: user.username,
-        user,
-        countFlashcards,
-        usernameError: err.message,
-      });
+      return {
+        success: true,
+        message: 'Username was successfully updated',
+        user: {
+          id: updatedUser.id,
+          username: updatedUser.username,
+          email: updatedUser.email,
+          apiKey: updatedUser.apiKey,
+          joinDate: updatedUser.joinDate,
+        },
+      };
+    } catch (err: any) {
+      throw new BadRequestException(err.message || 'Failed to update username');
     }
   }
 
-  @Post('updatePassword')
+  @Post(['api/profile/password', 'updatePassword'])
+  @HttpCode(HttpStatus.OK)
+  @ApiOperation({ summary: 'Update user password' })
   async updatePassword(
-    @Body() dto: UpdatePasswordDto,
+    @Body() body: any,
     @Req() req: Request,
-    @Res() res: Response,
   ) {
     const sessionUser = req.user as User;
     const user = await this.authService.findById(sessionUser.id);
+    const oldPassword = body.oldPassword || body.currentPassword || '';
+    const newPassword = body.newPassword || '';
+    const confirmPassword = body.confirmPassword || '';
+
+    if (!oldPassword || !newPassword || !confirmPassword) {
+      throw new BadRequestException('All password fields are required');
+    }
 
     try {
       await this.authService.updatePassword(
         user,
-        dto.oldPassword,
-        dto.newPassword,
-        dto.confirmPassword,
+        oldPassword,
+        newPassword,
+        confirmPassword,
       );
-      (req.session as any).passwordSuccess = 'Password was successfully updated';
-      return res.redirect('/profile');
-    } catch (err) {
-      const countFlashcards = await this.flashcardsService.countFlashcardsByUserId(
-        user.id,
-      );
-      return res.render('profile', {
-        isAuthenticated: true,
-        username: user.username,
-        user,
-        countFlashcards,
-        passwordError: err.message,
-      });
+      return {
+        success: true,
+        message: 'Password was successfully updated',
+      };
+    } catch (err: any) {
+      throw new BadRequestException(err.message || 'Failed to update password');
     }
   }
 
-  @Get('updateApiKey')
-  async updateApiKey(@Req() req: Request, @Res() res: Response) {
+  @Get(['api/profile/api-key', 'updateApiKey'])
+  @Post(['api/profile/api-key', 'updateApiKey'])
+  @HttpCode(HttpStatus.OK)
+  @ApiOperation({ summary: 'Generate a new API key' })
+  async updateApiKey(@Req() req: Request) {
     const sessionUser = req.user as User;
     const user = await this.authService.findById(sessionUser.id);
     await this.authService.updateApiKey(user);
-    return res.redirect('/profile');
+    const refreshed = await this.authService.findById(user.id);
+
+    return {
+      success: true,
+      message: 'API Key regenerated successfully',
+      apiKey: refreshed.apiKey,
+    };
   }
 }

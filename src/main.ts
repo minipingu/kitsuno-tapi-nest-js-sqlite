@@ -7,69 +7,43 @@ import { join } from 'path';
 const session = require('express-session');
 // eslint-disable-next-line @typescript-eslint/no-require-imports
 const passport = require('passport');
-import * as hbs from 'hbs';
 import { AppModule } from './app.module';
 import { AllExceptionsFilter } from './filters/all-exceptions.filter';
 
 async function bootstrap() {
   const app = await NestFactory.create<NestExpressApplication>(AppModule);
 
+  // Enable CORS for Next.js frontend
+  app.enableCors({
+    origin: (origin, callback) => {
+      // Allow requests with no origin (curl, server-to-server) or from localhost / LAN
+      if (!origin) return callback(null, true);
+      if (
+        origin.startsWith('http://localhost') ||
+        origin.startsWith('http://127.0.0.1') ||
+        /^http:\/\/192\.168\.\d+\.\d+(:\d+)?$/.test(origin)
+      ) {
+        return callback(null, true);
+      }
+      return callback(null, true);
+    },
+    credentials: true,
+    methods: ['GET', 'POST', 'PUT', 'DELETE', 'PATCH', 'OPTIONS'],
+    allowedHeaders: [
+      'Origin',
+      'X-Requested-With',
+      'Content-Type',
+      'Accept',
+      'Authorization',
+      'API-KEY',
+      'api-key',
+      'X-API-KEY',
+      'x-api-key',
+    ],
+  });
+
   // Serve static assets from public/
   app.useStaticAssets(join(__dirname, '..', 'public'));
-
-  // Configure Handlebars view engine
-  app.setBaseViewsDir(join(__dirname, '..', 'views'));
-  app.setViewEngine('hbs');
-
-  // Register Handlebars helpers
-  hbs.registerHelper('json', (context) => JSON.stringify(context));
-
-  hbs.registerHelper('join', (arr, sep) => {
-    if (Array.isArray(arr)) {
-      return arr.join(typeof sep === 'string' ? sep : ', ');
-    }
-    return arr || '-';
-  });
-
-  hbs.registerHelper('vocabWord', (item) => {
-    if (!item || typeof item !== 'string') return '';
-    const idx = item.indexOf('】');
-    return idx !== -1 ? item.substring(0, idx + 1) : item;
-  });
-
-  hbs.registerHelper('vocabMeaning', (item) => {
-    if (!item || typeof item !== 'string') return '';
-    const idx = item.indexOf('】');
-    return idx !== -1 ? item.substring(idx + 1).trim() : '';
-  });
-
-  hbs.registerHelper('particleExJp', (item) => {
-    if (!item || typeof item !== 'string') return '';
-    const idx = item.indexOf('】');
-    return idx !== -1 ? item.substring(0, idx + 1) : item;
-  });
-
-  hbs.registerHelper('particleExEn', (item) => {
-    if (!item || typeof item !== 'string') return '';
-    const idx = item.indexOf('】');
-    return idx !== -1 ? item.substring(idx + 1).trim() : '';
-  });
-
-  hbs.registerHelper('formatDate', (dateStr) => {
-    if (!dateStr) return '';
-    try {
-      const d = new Date(dateStr);
-      return isNaN(d.getTime()) ? dateStr : d.toLocaleDateString();
-    } catch {
-      return dateStr;
-    }
-  });
-
-  hbs.registerHelper('eq', (a, b) => a === b);
-  hbs.registerHelper('ne', (a, b) => a !== b);
-  hbs.registerHelper('not', (a) => !a);
-  hbs.registerHelper('or', (a, b) => a || b);
-  hbs.registerHelper('and', (a, b) => a && b);
 
   // Express Session & Passport authentication
   app.use(
@@ -80,6 +54,8 @@ async function bootstrap() {
       cookie: {
         maxAge: 7 * 24 * 60 * 60 * 1000, // 7 days
         httpOnly: true,
+        sameSite: 'lax',
+        secure: false,
       },
     }),
   );
@@ -119,7 +95,7 @@ async function bootstrap() {
   SwaggerModule.setup('v1/api-docs', app, swaggerDoc);
   SwaggerModule.setup('api-docs', app, swaggerDoc);
 
-  const port = process.env.PORT ? parseInt(process.env.PORT, 10) : 8080;
+  const port = process.env.PORT ? parseInt(process.env.PORT, 10) : 3001;
   await app.listen(port);
   console.log(`\n======================================================`);
   console.log(`🌸 Kitsuno NestJS is running on: http://localhost:${port}`);

@@ -1,6 +1,11 @@
 # Compiled output
 /dist
+dist
 /node_modules
+node_modules
+.wrangler
+.nitro
+.tanstack
 
 # Logs
 logs

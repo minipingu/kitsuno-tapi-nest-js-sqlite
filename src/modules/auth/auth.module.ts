@@ -9,6 +9,7 @@ import { SessionSerializer } from './session.serializer';
 import { LocalAuthGuard } from './guards/local-auth.guard';
 import { AuthenticatedGuard } from './guards/authenticated.guard';
 import { ApiKeyGuard } from './guards/api-key.guard';
+import { SessionOrApiKeyGuard } from './guards/session-or-api-key.guard';
 import { EmailModule } from '../email/email.module';
 
 @Module({
@@ -24,8 +25,9 @@ import { EmailModule } from '../email/email.module';
     LocalAuthGuard,
     AuthenticatedGuard,
     ApiKeyGuard,
+    SessionOrApiKeyGuard,
   ],
   controllers: [AuthController],
-  exports: [AuthService, AuthenticatedGuard, ApiKeyGuard],
+  exports: [AuthService, AuthenticatedGuard, ApiKeyGuard, SessionOrApiKeyGuard],
 })
-export class AuthModule {}
+export class AuthModule { }

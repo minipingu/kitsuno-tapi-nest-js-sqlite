@@ -1,0 +1,96 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --bg-main: #fffbf7;
+    --bg-card: #ffffff;
+    --bg-subtle: #fdf2f4;
+    --border-sakura: #fbcfe8;
+    --text-main: #261b23;
+    --text-muted: #6e5564;
+    --sakura-primary: #e11d48;
+    --sakura-hover: #be123c;
+    --sakura-light: #fce7f3;
+    --sakura-glow: rgba(225, 29, 72, 0.15);
+    --gold-accent: #d97706;
+  }
+
+  .dark {
+    --bg-main: #0f0c13;
+    --bg-card: #191422;
+    --bg-subtle: #251c31;
+    --border-sakura: #3d2642;
+    --text-main: #fdf2f8;
+    --text-muted: #c4a7bb;
+    --sakura-primary: #fb7185;
+    --sakura-hover: #f43f5e;
+    --sakura-light: #371b2d;
+    --sakura-glow: rgba(251, 113, 133, 0.25);
+    --gold-accent: #fbbf24;
+  }
+
+  body {
+    background-color: var(--bg-main);
+    color: var(--text-main);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Yu Gothic", Meiryo, sans-serif;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+}
+
+/* Custom Sakura Themed Utilities */
+.sakura-card {
+  background-color: var(--bg-card);
+  border: 1px solid var(--border-sakura);
+  box-shadow: 0 4px 20px -2px var(--sakura-glow);
+  transition: all 0.25s ease-in-out;
+}
+
+.sakura-card:hover {
+  border-color: var(--sakura-primary);
+  box-shadow: 0 8px 25px -4px var(--sakura-glow);
+}
+
+.sakura-gradient-text {
+  background: linear-gradient(135deg, #e11d48 0%, #db2777 50%, #f472b6 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.dark .sakura-gradient-text {
+  background: linear-gradient(135deg, #fda4af 0%, #fb7185 50%, #f472b6 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.sakura-btn-primary {
+  background: linear-gradient(135deg, #e11d48, #db2777);
+  color: #ffffff;
+  transition: all 0.2s ease;
+}
+
+.sakura-btn-primary:hover {
+  background: linear-gradient(135deg, #be123c, #be185d);
+  transform: translateY(-1px);
+}
+
+.dark .sakura-btn-primary {
+  background: linear-gradient(135deg, #f43f5e, #e11d48);
+  color: #ffffff;
+}
+
+/* 3D Flip Card Styles */
+.perspective-1000 {
+  perspective: 1000px;
+}
+
+.transform-style-3d {
+  transform-style: preserve-3d;
+}
+
+.backface-hidden {
+  backface-visibility: hidden;
+}
+
+.rotate-y-180 {
+  transform: rotateY(180deg);
+}

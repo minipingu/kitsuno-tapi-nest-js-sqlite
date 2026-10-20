@@ -1,5 +1,4 @@
 import { Module } from '@nestjs/common';
-import { WebController } from './web.controller';
 import { ProfileController } from './profile.controller';
 import { VocabularyModule } from '../vocabulary/vocabulary.module';
 import { CharactersModule } from '../characters/characters.module';
@@ -15,6 +14,6 @@ import { AuthModule } from '../auth/auth.module';
     FlashcardsModule,
     AuthModule,
   ],
-  controllers: [WebController, ProfileController],
+  controllers: [ProfileController],
 })
-export class WebModule {}
+export class WebModule { }
